@@ -1,0 +1,38 @@
+.footer{ 
+    background-color: $primary;
+  .footer-nav-all{
+      padding-top:60px; 
+      padding-bottom: 43px;
+      justify-content: space-between;
+      .footer-nav{
+          padding-bottom: 39px;
+      }
+      .info{
+          a{
+              font-size: 36px;
+              
+          } 
+          .material-symbols-outlined{
+            font-size: 36px;
+            line-height: 1.5;
+            vertical-align: top;
+            padding-right: 20px;
+        } 
+      }
+      .icon{
+          width: 48px;
+          a{
+              padding: 0;
+          }     
+      }
+  }
+ .copyright{
+      color: #fff;
+      padding: 32px 0;
+      text-align: center;
+      justify-content: space-between;
+      a{
+          padding: 0;
+      }
+  } 
+}

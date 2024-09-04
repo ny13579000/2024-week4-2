@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <nav class="navsearch">
+        <div class="container d-flex">
+            <ul class="d-flex">
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">特別企劃</a></li>
+                <li><a href="#">新品上市</a></li>
+                <li><a href="#">新品上市</a></li>
+            </ul>
+            <a class="g-icon" href=""><span class="material-symbols-outlined">search</span>
+            </a>
+        </div>
+    </nav>
+    <section class="blog-content">
+        <div class="container">
+            <div class="row">
+                <ul class="column content-menu">
+                    <li>
+                        <a href="#">首頁</a> / 
+                        <a href="#">部落格</a> / 
+                        <a href="#">特別企劃</a> / 
+                        <a class="a-color" href="#">情人特別企劃</a>
+                    </li>
+                    <li class="tags">
+                        <a class="a-color" href="#">#special</a>
+                        <a class="a-color" href="#">#special</a>
+                    </li>
+                </ul>            
+            </div>
+        </div>
+    </section>
+    <section class="blog-content">
+        <div class="container">
+            <div class="row">
+                <div class="column d-flex content">
+                    <article class="col-8">
+                        <h2>情人特別企劃</h2>
+                        <span class="sub">2020 Valentine’s Special</span>
+                        <img src="/assets/images/blog-1.png" alt="article-pic">
+                        <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
+                        <img src="/assets/images/blog-2.png" alt="article-pic">
+                        <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
+                        <img src="/assets/images/blog-3.png" alt="article-pic">
+                        <p>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</p>
+                    </article>
+                    <article class="tags tagss col-3 a-color">
+                        <div class="d-flex aic">
+                            <span class="fz-3 material-symbols-outlined">label</span>
+                            <span class="fz-2 ">TAGS</span>
+                        </div>
+                        <a href="#">#special</a>
+                        <a href="#">#sale</a>
+                        <a href="#">#new_item</a>
+                        <a href="#">#interview</a>
+                        <a href="#">#trivia</a>
+                        <a href="#">#news</a>
+                    </article>
+                </div>
+            
+                     
+            </div>
+        </div>
+    </section>
+    
+    <%- include('./layout/page'); -%>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

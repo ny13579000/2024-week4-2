@@ -1,0 +1,14 @@
+.nav{
+  background-color:$primary;
+  .logo{
+      width: 80px;
+      padding: 12px 12px 12px 0;
+  }
+  a{
+      color: #fff;
+  }
+  a:hover{
+      transform: scale(1.05);
+  }
+}
+
